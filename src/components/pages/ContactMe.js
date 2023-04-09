@@ -1,16 +1,3 @@
-// import React from 'react';
-
-// export default function ContactMe() {
-//   return (
-//     <div>
-//       <h1>My Contact Information</h1>
-//       <p>
-//         Feel free to contact me
-//       </p>
-//     </div>
-//   );
-// }
-
 import React from "react";
 import axios from "axios";
 class ContactMe extends React.Component {
