@@ -31,22 +31,24 @@ export default function AboutMe() {
           University of Arizona. I have a Bachelors of Science degree from
           Arizona State University. I have enjoyed and continue to enjoy working
           with every technology and technique I have learned so far. The more I
-          learn the more I can do and it’s very exciting! I love creating an
-          app/project that works but also that looks wonderful. Debugging is
-          necessary and I enjoy problem solving. It’s rewarding when all the
-          pieces fit into place and the project is fully functional. Inspecting
-          the page and not seeing any errors in the console is a wonderful
-          feeling.
+          learn the more I can do and it’s very exciting! I love hanging around
+          and playing with my dogs. I also enjoy playing golf and video games in my
+          free time. I like to tinker around with code to see what different combinations change and can do.
         </p>
         <br></br>
         <p>
-          I enjoy learning about and building projects. I am NOT stuck in my
-          ways. I am always open to new tips, tricks and ideas from others. I
-          understand that collaboration is needed in order for a project to
-          succeed. I have worked in team environments for over a decade. I have
-          worked with HTML, CSS, javascript, React, MongoDB, MYSQL, Express,
-          Node and many other technologies. I understand the importance of front
-          -end and back-end engineering.
+          I love creating an app/project that works but also that looks
+          wonderful. Debugging is necessary and I enjoy problem solving. It’s
+          rewarding when all the pieces fit into place and the project is fully
+          functional. Inspecting the page and not seeing any errors in the
+          console is a wonderful feeling. I enjoy learning about and building
+          projects. I am NOT stuck in my ways. I am always open to new tips,
+          tricks and ideas from others. I understand that collaboration is
+          needed in order for a project to succeed. I have worked in team
+          environments for over a decade. I have worked with HTML, CSS,
+          javascript, React, MongoDB, MYSQL, Express, Node and many other
+          technologies. I understand the importance of front-end and back-end
+          engineering.
         </p>
         <br></br>
         <p>
