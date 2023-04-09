@@ -7,46 +7,46 @@ function NavigationTabs({ currentPage, changePage }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#AboutMe 😁"
+          href="#AboutMe"
           onClick={() => changePage("AboutMe")}
           // Ternary operator that checks if the current page is "AboutMe", if it is, the current page will be 'nav-link-active', otherwise it will be 'nav-link'
           className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
         >
-          AboutMe
+          😁 About Me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#Portfolio 🎈"
-          onClick={() => changePage("Portfolio")}
-          // If the currentPage is `Portfolio`, the active link class from bootstrap is applied, if not, nav-link is applied.
+          href="#Projects"
+          onClick={() => changePage("Projects")}
+          // If the currentPage is `Projects`, the active link class from bootstrap is applied, if not, nav-link is applied.
           className={
-            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
+            currentPage === "Projects" ? "nav-link active" : "nav-link"
           }
         >
-          Portfolio
+          ✨ Projects
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#ContactMe 📱"
+          href="#ContactMe"
           onClick={() => changePage("ContactMe")}
           // If the currentPage is `ContactMe`, the active link class from bootstrap is applied, if not, nav-link is applied.
           className={
             currentPage === "ContactMe" ? "nav-link active" : "nav-link"
           }
         >
-          ContactMe
+          📱 Contact Me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#Resume 📄"
+          href="#Resume"
           onClick={() => changePage("Resume")}
           // If the currentPage is `Resume`, the active link class from bootstrap is applied, if not, nav-link is applied.
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
         >
-          Resume
+          📄 Resume
         </a>
       </li>
     </ul>
