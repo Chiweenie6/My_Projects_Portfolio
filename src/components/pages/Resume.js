@@ -2,34 +2,33 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Kevin Breedlove</h1>
-      {"\n"}
-      {"\n"}
+    <div class="text-center">
+      <h1 class="text-center fs-1 text-primary">Kevin Breedlove</h1>
+      <br></br>
       <p>
-        3318 S Holbrook ln
-        {"\n"}Tempe, AZ 85282
-        {"\n"}(715) 892-3893
-        {"\n"}kbreedlo06@gmail.com
+        3318 S Holbrook ln <br></br>
+        Tempe, AZ 85282 <br></br>
+        (715) 892-3893 <br></br>
+        kbreedlo06@gmail.com
       </p>
-      {"\n"}
-      {"\n"}
-      <h2>Skils</h2>
-      <p>
-        JavaScript, CSS, HTML, React, MongoDB, Mongoose ODM, MYSQL, Node.js, Web
-        APIs, Express.js, Sequelize, Handlebars.js, responsive web design,
-        object oriented programming, npm, command-line, Visual Studio Code,
-        teamwork, time management, GitHub, Version management
-      </p>
-      {"\n"}
-      {"\n"}
-      <h2>Experience</h2>
+      <br></br>
+      <br></br>
+      <h2 class="text-center fs-2 text-success">Skills</h2>
+        <p class="col-6 offset-3">
+          JavaScript, CSS, HTML, React, MongoDB, Mongoose ODM, MYSQL, Node.js,
+          Web APIs, Express.js, Sequelize, Handlebars.js, responsive web design,
+          object oriented programming, npm, command-line, Visual Studio Code,
+          teamwork, time management, GitHub, Version management
+        </p>
+      <br></br>
+      <br></br>
+      <h2 class="text-center fs-2 text-success">Experience</h2>
       <section>
-        <h4>
+        <h4 class="fs-4">
           University of Arizona, Tuscan, AZ - Full-Stack Developer Bootcamp
         </h4>
         <h6>October 2022 - PRESENT</h6>
-        <ul>
+        <ul class="col-6 offset-3 text-start">
           <li>
             Using HTML, CSS and JavaScript to build projects and applications.
           </li>
@@ -44,12 +43,11 @@ export default function Resume() {
           </li>
         </ul>
       </section>
-      {"\n"}
-      {"\n"}
+      <br></br>
       <section>
-        <h4>Petsmart, Chandler, AZ - Pet Stylist</h4>
+        <h4 class="fs-4">Petsmart, Chandler, AZ - Pet Stylist</h4>
         <h6>April 2021 - PRESENT</h6>
-        <ul>
+        <ul class="col-6 offset-3 text-start">
           <li>
             Using time management to make sure all my dogs are finished in a
             timely manner as well as helping coworkers and customers
@@ -72,12 +70,11 @@ export default function Resume() {
           </li>
         </ul>
       </section>
-      {"\n"}
-      {"\n"}
+      <br></br>
       <section>
-        <h4>The Barking Dog, Scottsdale, AZ - Dog Daycare Coordinator</h4>
+        <h4 class="fs-4">The Barking Dog, Scottsdale, AZ - Dog Daycare Coordinator</h4>
         <h6>November 2017 - April 2021</h6>
-        <ul>
+        <ul class="col-6 offset-3 text-start">
           <li>Making sure animals are safe, happy and healthy</li>
           <li>
             Manage groups (based on personality, behavior, activeness and size)
@@ -92,12 +89,13 @@ export default function Resume() {
           </li>
         </ul>
       </section>
+      <br></br>
       <section>
-        <h4>
+        <h4 class="fs-4">
           Arizona Animal Welfare League, Phoenix, AZ - Small Animal Keeper
         </h4>
         <h6>August 2017 - August 2020</h6>
-        <ul>
+        <ul class="col-6 offset-3 text-start">
           <li>
             Feeding, cleaning, handling, caring for and observing multiple small
             exotic animals
@@ -111,30 +109,32 @@ export default function Resume() {
           </li>
         </ul>
       </section>
-      {"\n"}
-      {"\n"}
-      <h2>Education</h2>
+      <br></br>
+      <br></br>
+      <h2 class="text-center fs-2 text-success">Education</h2>
       <section>
-        <h4>
+        <h4 class="fs-4">
           University of Arizona, Tuscan, AZ - Full-Stack Web Developer
           Certificate
         </h4>
         <h6>October 2022 - Current</h6>
-        <p>
+        <p class="col-6 offset-3">
           Learning web technologies such as JavaScript, CSS, HTML, Command-line,
           responsive web design, Express.js, Node.js, MYSQL, Sequelize, Web
           APIs, React, MongoDB, Mongoose ODM
         </p>
       </section>
-      {"\n"}
-      {"\n"}
+      <br></br>
       <section>
-        <h4>
+        <h4 class="fs-4">
           Arizona State University, Tempe, AZ - B.S. - Ecology & Evolutionary
           Biology
         </h4>
         <h6>August 2007 - August 2011</h6>
       </section>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
   );
 }
