@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import NavigationTabs from "./NavigationTabs";
 import AboutMe from "./pages/AboutMe";
-import Projects from "./pages/Projects";
+import Portfolio from "./pages/Portfolio";
 import ContactMe from "./pages/ContactMe";
 import Resume from "./pages/Resume";
 
@@ -13,8 +13,8 @@ export default function PortfolioInfo() {
     if (currentPage === "AboutMe") {
       return <AboutMe />;
     }
-    if (currentPage === "Projects") {
-      return <Projects />;
+    if (currentPage === "Portfolio") {
+      return <Portfolio />;
     }
     if (currentPage === "ContactMe") {
       return <ContactMe />;

@@ -17,14 +17,14 @@ function NavigationTabs({ currentPage, changePage }) {
       </li>
       <li className="nav-item">
         <a
-          href="#Projects"
-          onClick={() => changePage("Projects")}
-          // If the currentPage is `Projects`, the active link class from bootstrap is applied, if not, nav-link is applied.
+          href="#Portfolio"
+          onClick={() => changePage("Portfolio")}
+          // If the currentPage is `Portfolio`, the active link class from bootstrap is applied, if not, nav-link is applied.
           className={
-            currentPage === "Projects" ? "nav-link active" : "nav-link"
+            currentPage === "Portfolio" ? "nav-link active" : "nav-link"
           }
         >
-          ✨ Projects
+          ✨ Portfolio
         </a>
       </li>
       <li className="nav-item">
