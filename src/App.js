@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div id="entire-page">
-      <div id="wrapper">
+      <div id="page-wrapper">
         <Header />
         <PortfolioInfo />
       </div>

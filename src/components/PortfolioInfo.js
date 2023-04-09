@@ -5,6 +5,7 @@ import Portfolio from "./pages/Portfolio";
 import ContactMe from "./pages/ContactMe";
 import Resume from "./pages/Resume";
 
+// When the page is initially loaded and refreshed the "AboutMe" page will be shown by default
 export default function PortfolioInfo() {
   const [currentPage, setCurrentPage] = useState("AboutMe");
 
