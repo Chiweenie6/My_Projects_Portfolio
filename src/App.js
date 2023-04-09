@@ -3,6 +3,6 @@ import Header from "./components/Header";
 import PortfolioInfo from "./components/PortfolioInfo";
 import Footer from "./components/Footer";
 
-const App = () => <Header /> && <PortfolioInfo /> && <Footer />;
+const App = () => <PortfolioInfo />;
 
 export default App;
