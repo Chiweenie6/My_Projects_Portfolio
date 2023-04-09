@@ -7,7 +7,7 @@ function NavigationTabs({ currentPage, handlePageChange }) {
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
-          href="#AboutMe"
+          href="#AboutMe 😁"
           onClick={() => handlePageChange("AboutMe")}
           // Ternary operator that checks if the current page is "AboutMe", if it is, the current page will be 'nav-link-active', otherwise it will be 'nav-link'
           className={currentPage === "AboutMe" ? "nav-link active" : "nav-link"}
@@ -17,7 +17,7 @@ function NavigationTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#Portfolio"
+          href="#Portfolio 🎈"
           onClick={() => handlePageChange("Portfolio")}
           // If the currentPage is `Portfolio`, the active link class from bootstrap is applied, if not, nav-link is applied.
           className={
@@ -29,7 +29,7 @@ function NavigationTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#ContactMe"
+          href="#ContactMe 📱"
           onClick={() => handlePageChange("ContactMe")}
           // If the currentPage is `ContactMe`, the active link class from bootstrap is applied, if not, nav-link is applied.
           className={
@@ -41,7 +41,7 @@ function NavigationTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
-          href="#Resume"
+          href="#Resume 📄"
           onClick={() => handlePageChange("Resume")}
           // If the currentPage is `Resume`, the active link class from bootstrap is applied, if not, nav-link is applied.
           className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
