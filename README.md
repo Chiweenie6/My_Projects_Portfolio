@@ -13,7 +13,7 @@ A collection of projects I have created using different coding technologies.
   - [License](#License)
 
 ## Description
-An application created using React to display projects I have created or helped create. The app has a polished look and uses flex for the ability to use easily on a mobile phone or a computer.  
+An application created using React to display projects I have created or helped create. The app has a polished look and uses flex for the ability to used easily on a mobile phone or a computer.  
   
   Deployed App Link:
 
