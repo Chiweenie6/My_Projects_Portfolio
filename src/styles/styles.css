@@ -16,12 +16,13 @@
 
 #img {
     height: auto;
-    width: 35%;
-    opacity: 0.25;
+    width: 40%;
+    padding: 6px;
 }
 
 #img:hover {
-    opacity: 1;
+    rotate: -10deg;
+    width: 50%;
 }
 
 #page-wrapper {
