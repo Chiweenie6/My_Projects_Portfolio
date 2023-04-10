@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(5000, () => console.log("Server Running"));
+app.listen(3000, () => console.log("Server Running"));
 
 const gMail = process.env.REACT_APP_EMAIL;
 const pWord = process.env.REACT_APP_PWORD;

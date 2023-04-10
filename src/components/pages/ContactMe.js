@@ -6,14 +6,14 @@ export default function ContactMe() {
   const [formStatus, setFormStatus] = React.useState("Send");
   const onSubmit = async (event) => {
     event.preventDefault();
-    setFormStatus("Submitting...");
+    setFormStatus("Sending...");
     const { name, email, message } = event.target.elements;
     let formInfo = {
       name: name.value,
       email: email.value,
       message: message.value,
     };
-    let response = await fetch("http://localhost:5000/contact", {
+    let response = await fetch("http://localhost:3000/#ContactMe", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8",
