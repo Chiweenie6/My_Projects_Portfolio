@@ -33,7 +33,7 @@ export default function AboutMe() {
           with every technology and technique I have learned so far. The more I
           learn the more I can do and it’s very exciting! I love hanging around
           and playing with my dogs. I also enjoy playing golf and video games in my
-          free time. I like to tinker around with code to see what different combinations change and can do.
+          free time. I like to tinker around with code to see what different combinations of code can do and change.
         </p>
         <br></br>
         <p>
