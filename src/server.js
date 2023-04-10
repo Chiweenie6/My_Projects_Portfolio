@@ -1,4 +1,5 @@
 require('dotenv').config()
+
 const express = require("express");
 const router = express.Router();
 const cors = require("cors");
@@ -29,7 +30,7 @@ const contactEmail = nodemailer.createTransport({
     }
   });
 
-  router.post("/contact", (req, res) => {
+  router.post("/#ContactMe", (req, res) => {
     const name = req.body.name;
     const email = req.body.email;
     const message = req.body.message; 

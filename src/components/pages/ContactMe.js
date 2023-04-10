@@ -3,7 +3,7 @@ import React from "react";
 
 // React E-mail contact form
 export default function ContactMe() {
-  const [formStatus, setFormStatus] = React.useState("Send");
+  const [formStatus, setFormStatus] = React.useState("Submit");
   const onSubmit = async (event) => {
     event.preventDefault();
     setFormStatus("Sending...");
