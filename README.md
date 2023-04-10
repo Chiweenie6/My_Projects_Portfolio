@@ -23,7 +23,7 @@ This is my web development work Portfolio. This application's purpose is to show
   
   Images:  ![image](https://user-images.githubusercontent.com/113393706/230829515-28e495a6-71dc-47db-b609-9a7730ef86ed.png)  
   
-  ![image](https://user-images.githubusercontent.com/113393706/230829582-5ad78aec-39f1-467e-b2ce-36e3d333bb2f.png)  
+  ![image](https://user-images.githubusercontent.com/113393706/231008921-6f375ea1-ec9c-453c-b92d-b5655a9feb1c.png)  
   
   ![image](https://user-images.githubusercontent.com/113393706/230829648-115805e9-6287-4b4f-80d3-9428985b4f38.png)
 
