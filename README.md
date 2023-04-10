@@ -13,14 +13,20 @@ A collection of projects I have created using different coding technologies.
   - [License](#License)
 
 ## Description
-  An application created using React to display projects I have created or helped create. The app has a polished look and uses flex for the ability to use easily on a mobile phone or a computer.  
+An application created using React to display projects I have created or helped create. The app has a polished look and uses flex for the ability to use easily on a mobile phone or a computer.  
+  
   Deployed App Link:
 
 
 ## Usage  
 This is my web development work Portfolio. This application's purpose is to show the projects/applications I have created. It also shares a little personal information about myself. As well as ways to contact myself and to read my resume.
   
-  Images:  
+  Images:  ![image](https://user-images.githubusercontent.com/113393706/230829515-28e495a6-71dc-47db-b609-9a7730ef86ed.png)  
+  
+  ![image](https://user-images.githubusercontent.com/113393706/230829582-5ad78aec-39f1-467e-b2ce-36e3d333bb2f.png)  
+  
+  ![image](https://user-images.githubusercontent.com/113393706/230829648-115805e9-6287-4b4f-80d3-9428985b4f38.png)
+
 
 
 ## Installation
