@@ -3,7 +3,7 @@ import React from "react";
 export default function Resume() {
   return (
     <div class="text-center">
-      <h1 class="text-center fs-1 text-primary">Kevin Breedlove</h1>
+      <h1 class="text-center fs-1 text-primary text-opacity-75">Kevin Breedlove</h1>
       <br></br>
       <p>
         3318 S Holbrook ln <br></br>
@@ -13,7 +13,7 @@ export default function Resume() {
       </p>
       <br></br>
       <br></br>
-      <h2 class="text-center fs-2 text-success">Skills</h2>
+      <h2 class="text-center fs-2 text-success text-opacity-75">Skills</h2>
         <p class="col-6 offset-3">
           JavaScript, CSS, HTML, React, MongoDB, Mongoose ODM, MYSQL, Node.js,
           Web APIs, Express.js, Sequelize, Handlebars.js, responsive web design,
@@ -22,7 +22,7 @@ export default function Resume() {
         </p>
       <br></br>
       <br></br>
-      <h2 class="text-center fs-2 text-success">Experience</h2>
+      <h2 class="text-center fs-2 text-success text-opacity-75">Experience</h2>
       <section>
         <h4 class="fs-4">
           University of Arizona, Tuscan, AZ - Full-Stack Developer Bootcamp
@@ -111,7 +111,7 @@ export default function Resume() {
       </section>
       <br></br>
       <br></br>
-      <h2 class="text-center fs-2 text-success">Education</h2>
+      <h2 class="text-center fs-2 text-success text-opacity-75">Education</h2>
       <section>
         <h4 class="fs-4">
           University of Arizona, Tuscan, AZ - Full-Stack Web Developer

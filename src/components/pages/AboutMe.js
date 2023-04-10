@@ -11,7 +11,7 @@ export default function AboutMe() {
           height={"250"}
           class="rounded-circle"
         ></img>
-        <h1 class="text-primary">A Little About Me</h1>
+        <h1 class="text-primary text-opacity-75 fs-1">A Little About Me</h1>
         <p>
           I find coding extremely fun and rewarding. I love seeing the final
           project up and running and everything working. The backend is needed

@@ -1,87 +1,61 @@
 import React from "react";
-import axios from "axios";
-class ContactMe extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: "",
-      email: "",
-      message: "",
-    };
-  }
-  handleSubmit(e) {
-    e.preventDefault();
-    axios({
-      method: "POST",
-      url: "http://localhost:3002/send",
-      data: this.state,
-    }).then((response) => {
-      if (response.data.status === "success") {
-        alert("Message Sent.");
-        this.resetForm();
-      } else if (response.data.status === "fail") {
-        alert("Message failed to send.");
-      }
-    });
-  }
-  resetForm() {
-    this.setState({ name: "", email: "", message: "" });
-  }
-  render() {
-    return (
-      <div className="App" class="p-2 col-6 offset-3">
-        <form
-          id="contact-form"
-          onSubmit={this.handleSubmit.bind(this)}
-          method="POST"
-        >
-          <div className="form-group mt-3">
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              className="form-control"
-              id="name"
-              value={this.state.name}
-              onChange={this.onNameChange.bind(this)}
-            />
-          </div>
-          <div className="form-group mt-3">
-            <label htmlFor="exampleInputEmail1">Email address</label>
-            <input
-              type="email"
-              className="form-control"
-              id="email"
-              aria-describedby="emailHelp"
-              value={this.state.email}
-              onChange={this.onEmailChange.bind(this)}
-            />
-          </div>
-          <div className="form-group mt-3">
-            <label htmlFor="message">Message</label>
-            <textarea
-              className="form-control"
-              rows="5"
-              id="message"
-              value={this.state.message}
-              onChange={this.onMessageChange.bind(this)}
-            />
-          </div>
-          <button type="submit" className="btn btn-primary offset-5 mt-3">
-            Submit
-          </button>
-        </form>
-      </div>
-    );
-  }
-  onNameChange(event) {
-    this.setState({ name: event.target.value });
-  }
-  onEmailChange(event) {
-    this.setState({ email: event.target.value });
-  }
-  onMessageChange(event) {
-    this.setState({ message: event.target.value });
-  }
-}
 
-export default ContactMe;
+
+// React E-mail contact form
+export default function ContactMe() {
+  const [formStatus, setFormStatus] = React.useState("Send");
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setFormStatus("Submitting...");
+    const { name, email, message } = event.target.elements;
+    let formInfo = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+    };
+    let response = await fetch("http://localhost:5000/contact", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json;charset=utf-8",
+      },
+      body: JSON.stringify(formInfo),
+    });
+    setFormStatus("Submit");
+    let result = await response.json();
+    alert(result.status);
+  };
+  return (
+    // Message form template
+    <div className="container mt-5 col-6 offset-3">
+      <h2 className="mb-3 text-center text-primary text-opacity-75 fs-1">
+        Contact Me
+      </h2>
+      <form onSubmit={onSubmit}>
+        <div className="mb-3">
+          <label className="form-label fs-5" htmlFor="name">
+            Name
+          </label>
+          <input className="form-control" type="text" id="name" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label fs-5" htmlFor="email">
+            Email
+          </label>
+          <input className="form-control" type="email" id="email" required />
+        </div>
+        <div className="mb-3">
+          <label className="form-label fs-5" htmlFor="message">
+            Message
+          </label>
+          <textarea className="form-control" id="message" required />
+        </div>
+        <button
+          className="btn btn-warning btn-opacity-75 fs-5 offset-sm-5 col-md-2"
+          type="submit"
+        >
+          {formStatus}
+        </button>
+      </form>
+    </div>
+  );
+}
