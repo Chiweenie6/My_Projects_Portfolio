@@ -2,7 +2,11 @@ import React from "react";
 
 export default function Resume() {
   return (
-    <div class="text-center">
+    <div class="text-center pt-5">
+      <div class="text-end offset-8 col-2">
+        <a href={require("../files/Kevin's_Resume.pdf")} download class="download fs-3">⬇️</a>
+        <div class="hoverShow text-center offset-6">Click to download<br></br>Resume</div>
+      </div>
       <h1 class="text-center fs-1 text-primary text-opacity-75">Kevin Breedlove</h1>
       <br></br>
       <p>

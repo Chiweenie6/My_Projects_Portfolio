@@ -28,6 +28,15 @@
     padding-bottom: 3.5rem;
 }
 
+.hoverShow {
+    background-color: lavender;
+    display: none;
+}
+
+.download:hover + .hoverShow {
+    display: block;
+}
+
 .project {
     border: solid black 1px;
     border-radius: 0%;
