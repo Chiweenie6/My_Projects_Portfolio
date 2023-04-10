@@ -1,6 +1,5 @@
 import React from "react";
 
-
 // React E-mail contact form
 export default function ContactMe() {
   const [formStatus, setFormStatus] = React.useState("Submit");
@@ -27,6 +26,12 @@ export default function ContactMe() {
   return (
     // Message form template
     <div className="container mt-5 col-6 offset-3">
+      <div>
+        <h3 class="fs-5 text-center mb-5">
+          You can contact me by email at kbreedlo06@gmail.com<br></br> or
+          <br></br>Click the envelope below to open your default email client.
+        </h3>
+      </div>
       <h2 className="mb-3 text-center text-primary text-opacity-75 fs-1">
         Contact Me
       </h2>

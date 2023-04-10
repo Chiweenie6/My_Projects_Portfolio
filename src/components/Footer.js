@@ -6,6 +6,7 @@ export default function Footer () {
         <div id="footer" class="text-center bg-success bg-opacity-75">
             <a href="https://github.com/Chiweenie6" class="m-3"><img src={require("./images/GitHub.jpg")} alt="GitHub" height="50" width="50"></img></a>
             <a href="https://www.linkedin.com/in/kevin-breedlove-41647793/" class="m-3"><img src={require("./images/Linkedin.png")} alt="Linkedin" height="50" width="50"></img></a>
+            <a href="mailto:kbreedlo06@gmail.com" class="m-3"><img src={require("./images/g-mail.jpg")} alt="G-Mail" height="50" width="50"></img></a>
         </div>
     );
 }
