@@ -18,12 +18,29 @@ export default function Resume() {
       <br></br>
       <br></br>
       <h2 class="text-center fs-2 text-success text-opacity-75">Skills</h2>
-        <p class="col-6 offset-3">
-          JavaScript, CSS, HTML, React, MongoDB, Mongoose ODM, MYSQL, Node.js,
-          Web APIs, Express.js, Sequelize, Handlebars.js, responsive web design,
-          object oriented programming, npm, command-line, Visual Studio Code,
-          teamwork, time management, GitHub, Version management
-        </p>
+      <div class="col-6 offset-3">
+      <ul class="list-group list-group-flush d-flex flex-row flex-wrap p-2">
+        <li class="list-group-item w-50">🔹JavaScript</li>
+        <li class="list-group-item w-50">🔹HTML</li>
+        <li class="list-group-item w-50">🔹React</li>
+        <li class="list-group-item w-50">🔹CSS</li>
+        <li class="list-group-item w-50">🔹MongoDB</li>
+        <li class="list-group-item w-50">🔹Mongoose ODM</li>
+        <li class="list-group-item w-50">🔹MYSQL</li>
+        <li class="list-group-item w-50">🔹Node.js</li>
+        <li class="list-group-item w-50">🔹Web APIs</li>
+        <li class="list-group-item w-50">🔹Express.js</li>
+        <li class="list-group-item w-50">🔹Sequelize</li>
+        <li class="list-group-item w-50">🔹Handlebars.js</li>
+        <li class="list-group-item w-50">🔹Responsive Web Design</li>
+        <li class="list-group-item w-50">🔹Object Oriented Programming</li>
+        <li class="list-group-item w-50">🔹npm</li>
+        <li class="list-group-item w-50">🔹Command-line</li>
+        <li class="list-group-item w-50">🔹Visual Studio Code</li>
+        <li class="list-group-item w-50">🔹GitHub</li>
+        <li class="list-group-item w-50">🔹Version Management</li>
+      </ul>
+      </div>
       <br></br>
       <br></br>
       <h2 class="text-center fs-2 text-success text-opacity-75">Experience</h2>
