@@ -15,7 +15,7 @@ A collection of projects I have created using different coding technologies.
 ## Description
 An application created using React to display projects I have created or helped create. The app has a polished look and uses flex for the ability to used easily on a mobile phone or a computer.  
   
-  Deployed App Link:
+  Deployed App Link:  https://chiweenie6.github.io/My_Projects_Portfolio/
 
 
 ## Usage  
