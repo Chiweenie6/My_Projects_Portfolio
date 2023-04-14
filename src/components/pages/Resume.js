@@ -22,8 +22,9 @@ export default function Resume() {
       <ul class="list-group list-group-flush d-flex flex-row flex-wrap p-2">
         <li class="list-group-item w-50">🔹JavaScript</li>
         <li class="list-group-item w-50">🔹HTML</li>
-        <li class="list-group-item w-50">🔹React</li>
         <li class="list-group-item w-50">🔹CSS</li>
+        <li class="list-group-item w-50">🔹React</li>
+        <li class="list-group-item w-50">🔹GraphQL</li>
         <li class="list-group-item w-50">🔹MongoDB</li>
         <li class="list-group-item w-50">🔹Mongoose ODM</li>
         <li class="list-group-item w-50">🔹MYSQL</li>
@@ -39,6 +40,9 @@ export default function Resume() {
         <li class="list-group-item w-50">🔹Visual Studio Code</li>
         <li class="list-group-item w-50">🔹GitHub</li>
         <li class="list-group-item w-50">🔹Version Management</li>
+        <li class="list-group-item w-50">🔹Front-End Development</li>
+        <li class="list-group-item w-50">🔹Back-End Development</li>
+        <li class="list-group-item w-50">🔹Full-Stack Development</li>
       </ul>
       </div>
       <br></br>
