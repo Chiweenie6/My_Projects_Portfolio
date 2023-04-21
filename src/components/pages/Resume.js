@@ -23,6 +23,7 @@ export default function Resume() {
         <li class="list-group-item w-50">🔹JavaScript</li>
         <li class="list-group-item w-50">🔹HTML</li>
         <li class="list-group-item w-50">🔹CSS</li>
+        <li class="list-group-item w-50">🔹MERN</li>
         <li class="list-group-item w-50">🔹React</li>
         <li class="list-group-item w-50">🔹GraphQL</li>
         <li class="list-group-item w-50">🔹MongoDB</li>
