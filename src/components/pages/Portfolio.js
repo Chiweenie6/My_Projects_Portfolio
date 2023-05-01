@@ -7,6 +7,28 @@ export default function Portfolio() {
       <h1 class="text-primary text-opacity-75 text-center py-5 fs-1">My Projects</h1>
       </div>
         <section class="work d-flex flex-wrap text-center">
+
+        <section class="project col-6">
+                <h3 class="text-success text-opacity-75 fs-2">Groove Critic</h3>
+                <a href="https://groove-critic.herokuapp.com/">
+                    <img id="img" src={require("../images/Groove_Critic.png")} alt="text editor" class="workImage"></img>
+                </a>
+                <a href="https://github.com/krchandler27/groove-critic">
+                    <img id="img" src={require("../images/GitHub-logo.png")} alt="GitHub Logo" class="workImage"></img>
+                </a>
+            </section>
+
+        <section class="project col-6">
+                <h3 class="text-success text-opacity-75 fs-2">Find_A_Book</h3>
+                <a href="https://find--a--book.herokuapp.com/">
+                    <img id="img" src={require("../images/Find_A_Book.png")} alt="text editor" class="workImage"></img>
+                </a>
+                <a href="https://github.com/Chiweenie6/Find_A_Book">
+                    <img id="img" src={require("../images/GitHub-logo.png")} alt="GitHub Logo" class="workImage"></img>
+                </a>
+            </section>
+
+            
             <section class="project col-6">
                 <h3 class="text-success text-opacity-75 fs-2">Edit Thy Text</h3>
                 <a href="https://edit-thy-text.herokuapp.com/">
