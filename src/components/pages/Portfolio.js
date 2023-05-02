@@ -50,7 +50,7 @@ export default function Portfolio() {
         </section>
 
         <section class="project col-6">
-          <h3 class="text-success text-opacity-75 fs-2">Edit Thy Text 🖋️</h3>
+          <h3 class="text-success text-opacity-75 fs-2">Edit Thy Text</h3>
           <a href="https://edit-thy-text.herokuapp.com/">
             <img
               id="img"
