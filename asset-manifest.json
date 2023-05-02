@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/My_Projects_Portfolio/static/css/main.3a642ec1.css",
-    "main.js": "/My_Projects_Portfolio/static/js/main.5fc396c5.js",
+    "main.js": "/My_Projects_Portfolio/static/js/main.77b025b0.js",
     "static/media/Profile-Picture.jpeg": "/My_Projects_Portfolio/static/media/Profile-Picture.aa2880e2148ee1314cae.jpeg",
+    "static/media/Groove_Critic.png": "/My_Projects_Portfolio/static/media/Groove_Critic.9bef2bee428db9a98d3e.png",
     "static/media/Page_Turner.png": "/My_Projects_Portfolio/static/media/Page_Turner.9d97a11903d21daddd62.png",
     "static/media/Create_README_Like_A_Pro.png": "/My_Projects_Portfolio/static/media/Create_README_Like_A_Pro.36c2d3e5283c21a9b769.png",
     "static/media/Resplendent_Recipe_Finder.jpg": "/My_Projects_Portfolio/static/media/Resplendent_Recipe_Finder.87425097dbc3a0f4cb1b.jpg",
@@ -16,14 +17,15 @@
     "static/media/Organize_My_Day.png": "/My_Projects_Portfolio/static/media/Organize_My_Day.50d9ef69e291e8f99168.png",
     "static/media/Email_Regex.png": "/My_Projects_Portfolio/static/media/Email_Regex.ff679f8a153cfb2a5b77.png",
     "static/media/Whats_In_A_Password.png": "/My_Projects_Portfolio/static/media/Whats_In_A_Password.fa5cf120d54c12e9146d.png",
+    "static/media/Find_A_Book.png": "/My_Projects_Portfolio/static/media/Find_A_Book.31f8e6ba775ade26feaf.png",
     "static/media/Notes_To_Remember.png": "/My_Projects_Portfolio/static/media/Notes_To_Remember.38ccf5a7c20dcd906730.png",
     "static/media/Edit_Thy_Text.png": "/My_Projects_Portfolio/static/media/Edit_Thy_Text.bed48b0af26623e68f45.png",
     "index.html": "/My_Projects_Portfolio/index.html",
     "main.3a642ec1.css.map": "/My_Projects_Portfolio/static/css/main.3a642ec1.css.map",
-    "main.5fc396c5.js.map": "/My_Projects_Portfolio/static/js/main.5fc396c5.js.map"
+    "main.77b025b0.js.map": "/My_Projects_Portfolio/static/js/main.77b025b0.js.map"
   },
   "entrypoints": [
     "static/css/main.3a642ec1.css",
-    "static/js/main.5fc396c5.js"
+    "static/js/main.77b025b0.js"
   ]
 }
