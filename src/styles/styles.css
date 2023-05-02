@@ -21,8 +21,8 @@
 }
 
 #img:hover {
-    rotate: -2deg;
-    width: 43%;
+    /* rotate: -2deg; */
+    width: 45%;
 }
 
 #page-wrapper {
